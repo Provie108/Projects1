@@ -1,0 +1,371 @@
+
+
+body{
+	background-color: #FFFFFF;
+		margin: 0px;
+		padding: 0px;
+}
+
+.background {
+  background-image: url("../Images/Background.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+	
+	
+.mySlides {
+	display: none;
+
+}
+
+.SlideShow-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	margin-left:30px;
+}
+
+.SlideShow-container img{
+	 display: block;
+  max-width:820px;
+  
+  max-height:300px;
+  width: auto;
+  height: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin-left:50px;;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-left:30px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.blur {
+   background: rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur(8px); 
+  margin-bottom: 0px;
+  
+}
+
+
+
+
+
+	#main {
+		background-color: #a8a59d;
+			width: 70%;
+			margin: auto;
+			border: 1px black solid;
+			margin-bottom: 10px;
+			box-shadow: inset 0px 0px 500px rgba(0,0,0,.9);
+			
+	}
+	
+	.navbar {
+  overflow: hidden;
+  background-color: Black;
+  height:39px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+	
+	
+header div {
+		height: 200px;
+
+	}
+	
+	.headercontainer {
+		background-image: url("../Images/Header2.jpg");
+		  max-width: 100%;
+         max-height: 86%;
+	}
+
+
+.top-left p{
+	color: White;
+	font-family: serif;
+	font-size: Large;
+	background-color: black;
+	 margin:auto;
+	 margin-right:85%;
+	 font-weight: 900;
+}
+
+
+	header h1 {
+		color:black;
+		font-size: 50px;
+		font-family: serif;
+		text-align: center;
+		margin-top: 5px;
+	}
+	
+	header h2 {
+		color:black;
+		font-size: 50px;
+		font-family: serif;
+		text-align: left;
+		margin-top: 5px;
+	}
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: DarkGreen;
+	}
+	
+	li {
+		float:left;
+	}
+	
+	li {
+		display:block;
+		color:white;
+		text-align: center;
+		padding: 14px 16px
+		text-decoration: none;
+	}
+	
+	li a:hover {
+		background-color: green;
+	}
+	
+	#content {
+		min-height: 400px;
+		mma
+	}
+		
+	.textWithImage {
+		margin: 10px;
+	}
+	
+	.textWithImage p {
+		display: inline-block;
+		vertical-align: top;
+		width: 65%;
+	}
+	
+	.textWithImage img {
+		margin:10px;
+		display: inline-block;
+		border-radius: 50%;
+		width: 30%;
+		height:30%;
+	}
+	
+	.gardenImages img {
+		display: inline-block;
+		width: 25%;
+		margin: 3%;
+		border-radius: 5px;
+	}
+		
+	footer {
+		text-align: center;
+		background-color:Black ;
+		padding: 5px;
+		color: white;
+	}
+	
+	.question{
+	font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: Black;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #3a8;
+}
+
+#TestYourKnowledge{
+	text-align: center;
+}
+.table_container{
+margin-left:110;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.table_container {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.ContactForm {
+				color: Black;
+				font-size: 20px;
+				font-weight:bold;
+}
+
+.generalInput {
+	width: 375px;
+	display: block;
+	border: 1px grey solid;
+	height: 25px;
+	margin-bottom: 20px;
+}
+
+.clickInput {
+	border: 1px grey solid;
+	margin-bottom: 7px;
+	margin-right: 10px;
+}
+
+.errorMessage {
+	color: red;
+	font-size:15px;
+	font-weight: bold;
+}
